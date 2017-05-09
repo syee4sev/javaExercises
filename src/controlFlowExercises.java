@@ -5,10 +5,16 @@ public class controlFlowExercises {
     public static void main(String[] args) {
 
         int i = 5;
-        while(i <= 10) {
+        while(i <= 15) {
             System.out.println("The value of i is: " + i);
             i++;
         }
+
+
+
+
+
+
 
 
     } // end main
