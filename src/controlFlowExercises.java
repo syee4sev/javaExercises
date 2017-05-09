@@ -11,11 +11,20 @@ public class controlFlowExercises {
 //        }
 
 
-        int i = 2;
-        do {
+//        int i = 2;
+//        do {
+//            System.out.println("the numbers are: " + i);
+//            i = i + 2;
+//        } while (i<=100);
+
+
+          int i = 100;
+          do {
             System.out.println("the numbers are: " + i);
-            i = i + 2;
-        }while (i<=100);
+            i = i - 5;
+          } while (i >= -10);
+
+
 
 
 
