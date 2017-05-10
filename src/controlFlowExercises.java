@@ -49,44 +49,70 @@ public class controlFlowExercises {
 //}
 
 
+//        String yesNo;
+//        Scanner sc = new Scanner(System.in);
+//
+//
+//        do {
+//            System.out.println("What number would you like to go up to:  ");
+//
+//            int num = sc.nextInt();
+//
+//            System.out.println("Here is your table!");
+//            System.out.println();
+//            System.out.println("number    |    squared    |    cubed");
+//            System.out.println("------    |    -------    |    -----");
+//
+//            for (int i = 1; i <= num; i++) {
+//                System.out.println("   " + i + "      |      " + square(i) + "        |     " + cube(i));
+//            }
+//
+//            sc.nextLine();
+//            System.out.println("Would you like to continue:  ");
+//            yesNo = sc.nextLine();
+//
+//        }while (yesNo.equalsIgnoreCase("Y"));
+//
+//    } // end main
+//
+//    public static int square(int num)
+//    {
+//        int sNum = num * num;
+//        return sNum;
+//
+//    }
+//
+//    public static int cube(int num)
+//    {
+//        int cNum = num * num * num;
+//        return cNum;
+//
+//    }
 
-        String yesNo;
+
+
+
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Please enter your grade:  ");
+        int grade = sc.nextInt();
 
-        do {
-            System.out.println("What number would you like to go up to:  ");
+      if ((grade >= 88) && (grade <= 100)) {
+          System.out.println("A");
+      } else if
+            ((grade >= 80) && (grade <= 87)) {
+            System.out.println("B");
+      } else if
+            ((grade >= 67) && (grade <= 79)) {
+            System.out.println("C");
+      } else if
+            ((grade >= 60) && (grade <= 66)) {
+            System.out.println("D");
+      } else {
+//        ((grade >= 0) && (grade <= 59))
+            System.out.println("F");
+        }
 
-            int num = sc.nextInt();
-
-            System.out.println("Here is your table!");
-            System.out.println();
-            System.out.println("number    |    squared    |    cubed");
-            System.out.println("------    |    -------    |    -----");
-
-            for (int i = 1; i <= num; i++) {
-                System.out.println("   " + i + "      |      " + square(i) + "        |     " + cube(i));
-            }
-
-            sc.nextLine();
-            System.out.println("Would you like to continue:  ");
-            yesNo = sc.nextLine();
-
-        }while (yesNo.equalsIgnoreCase("Y"));
-
-    } // end main
-
-    public static int square(int num)
-    {
-        int sNum = num * num;
-        return sNum;
-
-    }
-
-    public static int cube(int num)
-    {
-        int cNum = num * num * num;
-        return cNum;
 
     }
 
