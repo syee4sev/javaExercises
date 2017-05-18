@@ -216,9 +216,6 @@ public class methodsRecursion {
     }
 
 
-
-
-
     public static int getFactorial(int num1) {
 
         int total = num1;

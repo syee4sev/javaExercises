@@ -130,34 +130,34 @@ for(int i = 1; i <= 100; i++) {
 
 
 
-//String yesNo;
-//Scanner sc = new Scanner(System.in);
-//
-//do {
-//    System.out.println("Please enter your grade:  ");
-//    int grade = sc.nextInt();
-//
-//    if ((grade >= 88) && (grade <= 100)) {
-//        System.out.println("A");
-//    } else if
-//            ((grade >= 80) && (grade <= 87)) {
-//        System.out.println("B");
-//    } else if
-//            ((grade >= 67) && (grade <= 79)) {
-//        System.out.println("C");
-//    } else if
-//            ((grade >= 60) && (grade <= 66)) {
-//        System.out.println("D");
-//    } else {
-////        ((grade >= 0) && (grade <= 59))
-//        System.out.println("F");
-//    }
-//
-//    sc.nextLine();
-//    System.out.println("Enter another grade?");
-//    yesNo = sc.nextLine();
-//
-//    } while (yesNo.equalsIgnoreCase("Y"));
+String yesNo;
+Scanner sc = new Scanner(System.in);
+
+do {
+    System.out.println("Please enter your grade:  ");
+    int grade = sc.nextInt();
+
+    if ((grade >= 88) && (grade <= 100)) {
+        System.out.println("A");
+    } else if
+            ((grade >= 80) && (grade <= 87)) {
+        System.out.println("B");
+    } else if
+            ((grade >= 67) && (grade <= 79)) {
+        System.out.println("C");
+    } else if
+            ((grade >= 60) && (grade <= 66)) {
+        System.out.println("D");
+    } else {
+//        ((grade >= 0) && (grade <= 59))
+        System.out.println("F");
+    }
+
+    sc.nextLine();
+    System.out.println("Enter another grade?");
+    yesNo = sc.nextLine();
+
+    } while (yesNo.equalsIgnoreCase("Y"));
 
 
 
